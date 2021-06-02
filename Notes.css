@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 4px 2px 2px 2px;
+}
+header div{
+    display: inline-block;
+}
+.leftHeader div{
+    float: left;
+    margin: 8px 20px 8px 8px;
+}
+.leftHeaderText{
+    font-size: 25px;
+}
+.leftHeaderHome{
+    font-size: 20px;
+    height: 28px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+.rightHeader{
+    float: right;
+}
+.rightHeader div{
+    float: left;
+    margin: 8px 8px 8px 8px;
+}
+.rightHeaderBox input{
+    font-size: 16px;
+    height: 28px;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+}
+.rightHeaderSearch{
+    font-size: 16px;
+    height: 28px;
+    color: green;
+    border: 1px solid green;
+    border-radius: 3px;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.main{
+    margin: 40px 20% 20px 20%;
+}
+.pageText{
+    padding: 10px 0 10px 0;
+    text-align: left;
+}
+.pageTextHeading1{
+    border-top: 2px solid rgb(236, 232, 232);
+    padding-top: 20px;
+}
+.pageTextHeading2{
+    border-top: 2px solid rgb(236, 232, 232);
+    border-bottom: 2px solid rgb(236, 232, 232);
+    padding: 15px 0 15px 0;
+}
+.pageTextParagraph{
+    font-size: 15px;
+}
+.addNote{
+    border: 2px solid rgb(236, 232, 232);
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.addNoteText{
+    margin: 8px 0 4px 0;
+    font-weight: bold;
+}
+.addNoteBox textarea{
+    resize: vertical;
+    padding: 8px;
+    border: 2px solid rgb(236, 232, 232);
+    width: 100%;
+}
+.addNoteButton{
+    margin: 4px 0 8px 0;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 12px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.createdBox{
+    display: inline-block;
+    width: 29.33%;
+    height: 170px;
+    margin: 2%;
+    padding: 8px;
+    border: 2px solid rgb(236, 232, 232);
+    float: left;
+}
+.createdBox h3{
+    padding: 4px;
+}
+.createdBox p{
+    padding: 4px;
+    overflow-wrap: break-word;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 4px;
+    overflow-y: scroll;
+}
+.createdBox button{
+    margin: 4px;
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+@media (orientation: portrait){
+    header{
+        height: 40px;
+        padding: 3px 1px 1px 1px;
+    }
+    .leftHeader div{
+        margin: 5px 6px 5px 5px;
+    }
+    .leftHeaderText{
+        font-size: 18px;
+    }
+    .leftHeaderHome{
+        font-size: 16px;
+        height: 21px;
+        padding-top: 2px;
+        box-shadow: 0px 2px 2px rgb(66, 65, 65);
+    }
+    .rightHeader{
+        width: 50%;
+    }
+    .rightHeader div{
+        margin: 3%;
+    }
+    .rightHeaderBox{
+        width: 54%;
+    }
+    .rightHeaderBox input{
+        font-size: 12px;
+        height: 23px;
+        width: 100%;
+        border-radius: 2px;
+        padding: 5px;
+    }
+    .rightHeaderSearch{
+        font-size: 14px;
+        height: 24px;
+        border-radius: 2px;
+        width: 34%;
+        padding: 5px;
+    }
+    
+    .main{
+        margin: 30px 10% 10px 10%;
+    }
+    .pageText{
+        padding: 7px 0 7px 0;
+        text-align: left;
+    }
+    .pageTextHeading1{
+        border-top: 2px solid rgb(236, 232, 232);
+        padding-top: 20px;
+    }
+    .pageTextHeading2{
+        border-top: 2px solid rgb(236, 232, 232);
+        border-bottom: 2px solid rgb(236, 232, 232);
+        padding: 10px 0 10px 0;
+    }
+    .pageTextParagraph{
+        font-size: 15px;
+    }
+    .addNote{
+        border: 2px solid rgb(236, 232, 232);
+        padding: 8px;
+        margin-bottom: 8px;
+    }
+    .addNoteText{
+        margin: 4px 0 4px 0;
+        font-weight: bold;
+    }
+    .addNoteBox textarea{
+        resize: vertical;
+        padding: 8px;
+        border: 2px solid rgb(236, 232, 232);
+        width: 100%;
+        padding: 3px 0 3px 0;
+    }
+    .addNoteButton{
+        margin: 4px 0 4px 0;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 2px;
+        display: inline-block;
+        font-size: 12px;
+        padding: 6px;
+        cursor: pointer;
+    }
+    
+    .createdBox{
+        display: inline-block;
+        width: 90%;
+        height: 140px;
+        margin: 5%;
+        padding: 8px;
+        border: 2px solid rgb(236, 232, 232);
+        float: left;
+    }
+    .createdBox h3{
+        padding: 0px;
+    }
+    .createdBox p{
+        padding: 0px;
+        overflow-wrap: break-word;
+        width: 100%;
+        height: 60px;
+        margin-bottom: 4px;
+        overflow-y: scroll;
+    }
+    .createdBox button{
+        margin: 0px;
+        padding: 8px;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 2px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    
+}

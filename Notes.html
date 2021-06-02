@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Maker</title>
+    <link rel="shortcut icon" href="https://t4.ftcdn.net/jpg/03/03/47/11/360_F_303471191_BnCZIdg5uS4l6Hicsf80x24mu782IKzJ.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="Notes.css">
+</head>
+<body>
+    <div id="container">
+        <div id="headerContainer">
+            <header id="header">
+                <div class="leftHeader" id="leftHeader">
+                    <div class="leftHeaderText" id="leftHeaderText">Magic Notes</div>
+                    <div class="leftHeaderHome" id="leftHeaderHome">Home</div>
+                </div>
+                <div class="rightHeader" id="rightHeader">
+                    <div class="rightHeaderBox" id="rightHeaderBox">
+                        <input type="text" id="inputid" placeholder="Search Notes">
+                    </div>
+                    <div class="rightHeaderSearch" id="rightHeaderSearch">Search</div>
+                </div>
+            </header>
+        </div>
+        
+        <div class="main" id="mainContainer">
+            <main id="main">
+                <div id="mainElementContainer">
+                    <div id="sectionContainer">
+                        <section id="section">
+                            <div class="pageText pageTextHeading1" id="sectionHeading"><h1>Welcome to Magic Notes</h1></div>
+                            <div class="addNote">
+                                <div>
+                                    <div class="addNoteText">Add a Note</div>
+                                    <div class="addNoteBox"><textarea name="Add Note" id="textarea" rows="4" placeholder="Write your note here"></textarea></div>
+                                </div>
+                                <div class="addNoteButton" id="addNoteButton">Add Note</div>
+                            </div>
+                        </section>
+                    </div>
+                    <div id="articleContainer">
+                        <article id="article">
+                            <div id="articleText">
+                                <div class="pageText pageTextHeading2" id="articleHeading"><h2>Your Notes</h2></div>
+                                <div class="pageText pageTextParagraph" id="articleNote">Nothing to show! Use "Add Notes" section to add notes</div>
+                            </div>
+                            <div id="notes">
+
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+<script src="Notes.js"></script>
+</html>
